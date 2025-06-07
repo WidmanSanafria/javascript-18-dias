@@ -1,0 +1,75 @@
+/*     <h1>Etiqueta de estilos</h1>
+    <p>La etiqueta de estilos se utiliza para definir estilos CSS dentro de un documento HTML. Se coloca dentro de la sección `<head>` del documento.</p>
+    <p>Por ejemplo, para cambiar el color del texto de un párrafo a rojo, se puede usar la siguiente etiqueta de estilos:</p> */
+
+body{
+background-image: url(https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+margin: 0;
+padding: 0;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: #ffffff;
+font-family: Arial, sans-serif;
+text-align: center;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+
+}
+h1 {    
+    color: blue;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 2.5em;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+h1:hover {
+    color: #ff0000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+p {
+    color: red;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    margin: 20px auto;
+    max-width: 600px;
+    line-height: 1.6;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+
+p:hover {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.upper{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #ffffff;
+    text-align: center;
+}
+
+.upper:hover{
+    color: #ff0000;
+    text-decoration: none;
+    cursor: pointer;
+}
+

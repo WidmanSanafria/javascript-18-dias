@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: #333;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+
+
+
+/*     <h1>Estilos de texto </h1>
+    <p>En este ejercicio vamos a aprender a aplicar estilos de texto utilizando CSS.</p>
+    <h2>Ejercicio 1: Estilo de texto</h2>
+    <p>Utiliza las siguientes propiedades CSS para cambiar el estilo del texto:</p>
+    <ul>
+        <li><strong>color</strong>: Cambia el color del texto.</li>
+        <li><strong>font-size</strong>: Cambia el tamaño de la fuente.</li>
+        <li><strong>font-family</strong>: Cambia la familia de la fuente.</li>
+        <li><strong>font-weight</strong>: Cambia el grosor del texto (normal, bold, etc.).</li>
+        <li><strong>text-decoration</strong>: Añade subrayado, tachado, etc.</li>
+        <li><strong>text-transform</strong>: Cambia el caso del texto (mayúsculas, minúsculas, etc.).</li>
+    </ul>
+    <p>Por ejemplo, para cambiar el color del texto a rojo y el tamaño de la fuente a 20px, puedes usar:</p> */
+h1, h2, p {
+    color: #fff;
+    text-align: center;
+}
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 10px 20px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+}
+li {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
